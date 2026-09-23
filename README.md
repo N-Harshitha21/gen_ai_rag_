@@ -2,6 +2,24 @@
 
 A small RAG-based document question-answering application built for the GenAI take-home assignment.
 
+# Smart Document Assistant
+
+A RAG-based application that allows users to upload PDF and TXT documents
+and ask questions based on the uploaded documents.
+
+## Features
+
+- PDF and TXT document upload
+- Document chunking
+- Semantic retrieval
+- Grounded question answering
+- Retrieval threshold for hallucination control
+- Explicit NOT_FOUND handling
+
+## Demo Video
+
+[Watch the Demo Video](https://drive.google.com/file/d/17xWzAxpt0-gciAdlNt_9a0nCoPv9U5kB/view?usp=sharing)
+
 ## What it does
 
 1. Upload PDF/TXT documents.
