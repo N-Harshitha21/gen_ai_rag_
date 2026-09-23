@@ -1,0 +1,16 @@
+flowchart TD
+    A[User] --> B[Streamlit UI]
+    B --> C[PDF/TXT Parser]
+    C --> D[Page-aware Chunking]
+    D --> E[Sentence Transformer Embeddings]
+    E --> F[FAISS Vector Store]
+    B --> G[User Question]
+    G --> H[Query Embedding]
+    H --> F
+    F --> I[Top-K Relevant Chunks]
+    I --> J[Grounded Prompt]
+    J --> K[LLM]
+    K --> L[Answer]
+    I --> M[Source Document + Page + Evidence]
+    L --> B
+    M --> B
